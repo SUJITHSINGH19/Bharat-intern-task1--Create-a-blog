@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Creator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Create Your Blog</h1>
+  </header>
+  
+  <main>
+    <div id="blog-content">
+      <h2>Your Blog Content</h2>
+      <div id="content-area" contenteditable="true">
+        <p>Start typing your blog content here...</p>
+      </div>
+    </div>
+
+    <aside>
+      <h2>Blog Elements</h2>
+      <div id="elements">
+        <button onclick="insertText('BAJAJ PULSAR N160 is a 165cc air and liquid cooled bike which produce 16.4ps of power and 14Nm of torque,It is very reliable and a practical motorcycle bajaj has ever produced')">Add Text</button>
+        <button onclick="insertImage('https://cdn.shopify.com/s/files/1/0608/7819/2888/files/bmw-2023.jpg?v=1674124793')">Add Image</button>
+        <button onclick="insertVideo('https://bd.gaadicdn.com/processedimages/bmw/s1000rr/494X300/s1000rr639452adaefdb.jpg?imwidth=400&impolicy=resize')">Add Video</button>
+      </div>
+    </aside>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+main {
+    display: flex;
+}
+
+#blog-content {
+    width: 70%;
+    padding-right: 20px;
+}
+
+#content-area {
+    border: 1px solid #ccc;
+    padding: 10px;
+    min-height: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+aside {
+    width: 30%;
+}
+
+#elements {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #0a660d;
+    color: rgb(50, 4, 4);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.element {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #5522c2;
+    border: 1px solid #7cde27;
+    border-radius: 5px;
+    cursor: move;
+}
+
+.element img,
+.element video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #3498db; /* Change to your desired blue color */
+}
+
+/* Rest of your existing CSS styles */
